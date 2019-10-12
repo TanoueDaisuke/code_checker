@@ -88,11 +88,10 @@ function judgeFunction(qNum, funcName, code) {
   for (let i = 0; i < answers.length; i++) {
     // 関数名(引数)の形にして元コードに追加
     code += funcName + '(' + getArgument(answers[i][0]) + ')' + '\n'
-
     try {
       // JSはオブジェクトの比較がメモリのアドレスでの比較になるので
       // 戻り値がオブジェクト(連想配列)の場合はそれをキャッチして特殊な処理をして比べる
-      if (typeof(eval(code) === 'object')) {
+      if (typeof(eval(code)) === 'object') {
         let ansJSON = JSON.stringify(eval(code))
         let expJSON = JSON.stringify(answers[i][1])
         if (ansJSON !== expJSON) {
