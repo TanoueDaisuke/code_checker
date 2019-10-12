@@ -1,0 +1,45 @@
+.wrap {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: Zapfino, Regular;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.attention {
+  font-weight: bold;
+  color: red;
+}
+
+select {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  font-size: 15px;
+}
+
+#btn {
+  display: inline-block;
+  text-align: left;
+  background-color: black;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
