@@ -32,7 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // 取れてるか確認
     // console.log(funcName)
 
-    alert(judgeFunction(qNum, funcName, code))
+    let result = judgeFunction(qNum, funcName, code)
+    if (result !== 'undefined') {
+      alert(result)
+    }
     // =>正解or不正解
 
     e.preventDefault()
