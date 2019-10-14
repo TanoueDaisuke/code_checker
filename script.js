@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // console.log(funcName)
 
     let result = judgeFunction(qNum, funcName, code)
-    if (result !== 'undefined') {
+    if (result !== undefined) {
       alert(result)
     }
     // =>正解or不正解
