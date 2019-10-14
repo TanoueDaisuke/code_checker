@@ -2,7 +2,7 @@
 ↓リンク先<br>
 https://tanouedaisuke.github.io/code_checker/index.html
 
-こちらでfunction命令で書かれた関数のコードを貼り付けることで採点ができる。<br>
+こちらでfunction命令で書かれた関数のコードを貼り付けることで正誤判定や簡単な添削ができる。<br>
 ここでは**以下の課題**の添削をする。
 <br><br><br>
 
