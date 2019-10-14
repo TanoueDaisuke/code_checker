@@ -4,10 +4,9 @@ https://tanouedaisuke.github.io/code_checker/index.html
 
 こちらでfunction命令で書かれた関数のコードを貼り付けることで採点ができる。<br>
 ここでは**以下の課題**の添削をする。
+<br><br><br>
 
-<hr>
-
-# JavaScript関数課題設問~初級編~
+# JavaScript関数課題設問\~初級編\~
 
 ## 1.　**絶対値を求める関数**
 ### 挙動は以下の通りとしてください。
