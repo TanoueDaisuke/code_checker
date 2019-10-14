@@ -1,4 +1,4 @@
-# JavaScriptの関数の課題を自動採点するWebサイト
+# JavaScriptの関数の課題を自動添削するWebサイト
 ↓リンク先<br>
 https://tanouedaisuke.github.io/code_checker/index.html
 
